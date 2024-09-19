@@ -14,7 +14,7 @@ This application can be deployed locally. On linux, install git and clone the re
 Install the dependencies
 
     pipx install flask
-    pipx install flask-sqlalchemy
+    pipx install flask-sqlalchemy --include- #to include apps of dependent packages
     pipx install mysql-python
 
 and start the application
