@@ -15,7 +15,7 @@ Install the dependencies
 
     pipx install flask
     pipx install flask-sqlalchemy --include-deps #to include apps of dependent packages
-    pipx install mysql-python
+    pip3 install --break-system-packages mysqlx-connector-python
 
 and start the application
 
